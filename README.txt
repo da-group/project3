@@ -1,3 +1,5 @@
+Report of the project: http://crime2017.georgetown.domains/uncategorized/crime-analysis-in-washington-dc/
+
 CrimeAndDistrict.py: Just run this file and this file will use crime2017_cleaned_preprocessed.csv, compute safety value we define ourselves and add this values to a new column.
 Related tableau link: https://public.tableau.com/profile/jiachi.zhang#!/vizhome/crime2017_safety_district_sheet/Sheet1
 https://public.tableau.com/profile/jiachi.zhang#!/vizhome/crime2017_safety/Safetyevaluationof7districts
