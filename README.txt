@@ -7,3 +7,31 @@ d3.py: Because I cannot install d3py on python3, I test this file in python2. Ho
 So just run this file. Firstly it will generate every_years'_juvenile_crime_numbers' line graph. Then you should enter control+c and this file will generate districts_crime_number's line graph.(I was going to draw a bar graph but failed. Original code is from github's example so it is real confusing)
 This file is related to snapshots juvenile_crime_number_d3.png and district_crime_number.png
 
+
+CrimeAndMethods.py:  Produce a pie chart about number of crime and the methods by Plotly(gun, knife and others).
+
+Juve.py: Use the juvenilearrests.csv, compute and add some information into it and create a scatter plot with Plotly. Finally output a new csv file.
+The modified csv is called juvenile_district.csv.
+
+felony.py: Because we regard the suspects under 20 years old as juveniles, we add a new attribute isJuvenile into this csv. 
+The modified csv is felony2016_IsJuvenile.
+
+Graphs using Plotly:
+Juvenile arrests 2011-2017.png 
+CrimeMethods.png
+
+Graphs using Tableau: 
+Crime and shift.png
+District and Arrests.png
+Felony and Juvenile.png
+
+Tableau URL:
+https://public.tableau.com/views/2_3979/1_1?:embed=y&:display_count=yes
+https://public.tableau.com/views/2_3979/2?:embed=y&:display_count=yes
+https://public.tableau.com/views/2_3979/3?:embed=y&:display_count=yes
+
+Plotly URL: 
+https://plot.ly/~rivenseiun/18/methods-of-crime/
+https://plot.ly/~rivenseiun/20/juvenile-arrests-2011-2017/
+
+
