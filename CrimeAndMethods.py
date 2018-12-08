@@ -17,7 +17,7 @@ import plotly.graph_objs as go
 meta1= pd.read_csv('./dataset/crime2017_safety.csv')
 
 
-#1.Bar
+#1.Pie chart
 #get value counts for every income group
 
 counts = meta1['METHOD'].value_counts(sort = False)
